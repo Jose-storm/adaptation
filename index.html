@@ -3,24 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Css advanced</title>
+    <title>Test Patitas</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     <header class="encabezado">
+        <div class="encabezado__logo">
+            <h3>Albergue<span> Patitas</span></h3>
+        </div>
         <nav class="encabezado__menu">
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="./pages/pruebados.html">Albergue</a></li>
+                <li><a href="#">Adopta</a></li>
+                <li><a href="#">Blog</a></li>
+                <a href="#" class="encabezado__contacto">Adopta</a>
             </ul>
         </nav>
+        <div class="encabezado__marca">
+            <h3>Sumate al apoyo ❤️</h3>
+        </div>
     </header>
     <main>
         <div class="content_video">
-            <video src="video/202368-918049003_medium.mp4" autoplay muted poster="/img/acapulco-3605307_1280.jpg" loop>
+            <video autoplay muted poster="/img/acapulco-3605307_1280.jpg" loop id="video-fondo">
+                <source src="video/135025-760679997_medium.mp4" type="video/mp4">
             </video>
+            <div class="oscurecer"></div>
+            <div class="card_video">
+                <h2>Refugio para animales</h2>
+                <p>
+                    Video del albergue
+                </p>
+            </div>
         </div>
+            <!-- <p class="underline">Hola mundo</p> -->
         <section class="content_one">
             <h1>BEM Metodología</h1>
             <div class="content__description">
@@ -37,6 +54,7 @@
             <button class="btn-secondary">Botón 2</button>
             <button class="btn-third">Botón 3</button>
         </section>
+
     </main>
     <footer>
         
