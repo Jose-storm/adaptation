@@ -103,7 +103,7 @@ h1, h2{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 700px;
+    min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(to right, rgba(58, 56, 56, 0.579), rgba(24, 22, 22, 0.459)), url(../img/dog-5773924_1280.jpg);
 }
